@@ -1,0 +1,25 @@
+{
+  "name": "type-safe-event-target",
+  "version": "1.0.0",
+  "description": "A type-safe extension of EventTarget for managing custom events with specific data types.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "eventtarget",
+    "typescript",
+    "type-safe",
+    "events",
+    "custom-event",
+    "event-emitter",
+    "dom"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
